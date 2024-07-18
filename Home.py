@@ -29,7 +29,7 @@ with st.sidebar:
 
 
 # logic for chat bot
-genai.configure(api_key = st.secrets["GEMINI_API_KEY"])
+genai.configure(api_key = "AIzaSyCP4Q1Iad4GL88kI-HvU-XqRmA5I9dCCpc")
 model = genai.GenerativeModel('gemini-1.0-pro')
 
 if "chat" not in st.session_state:
